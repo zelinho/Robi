@@ -1,0 +1,82 @@
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROBİ Sanal Asistan</title>
+</head>
+<style>
+    df-messenger {
+        --df-messenger-bot-message: rgb(80, 185, 255);
+        --df-messenger-button-titlebar-color: black;
+        --df-messenger-chat-background-color: rgb(255, 255, 255);
+        --df-messenger-font-color: rgb(255, 255, 255);
+        --df-messenger-send-icon: #878fac;
+        --df-messenger-user-message: rgb(0, 0, 110);
+    }
+    
+
+    header {
+        height: 60px;
+        text-align: center;
+        font-size: x-large;
+        color: white;
+        margin: 30px;
+    }
+
+    body {
+        background: linear-gradient(rgb(80, 185, 255), rgb(50, 110, 220), rgb(0, 0, 110));
+    }
+
+
+.center {
+    text-align: center;
+    height: auto;
+    margin: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.left {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+
+
+</style>
+
+<body>
+
+    <header>
+        <h1>ROBİ SANAL ASİSTAN</h1>
+    </header>
+    <div class="chatbot">
+        <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+        <df-messenger intent="WELCOME"
+            chat-icon="https://www.lastik.com.tr/medias/lastik-logo.svg?context=bWFzdGVyfGltYWdlc3wzOTk5OHxpbWFnZS9zdmcreG1sfGhiNi9oNWEvODg0MDQwNTY0NzM5MC9sYXN0aWstbG9nby5zdmd8ZjZmNGM4ZTMyMjY5ODgwNTU4OGE1MWJmOGU0ZGVjZWMzMDJhODgzNzJkNDMwMTIwNzNlNjg2NGI3ZWZmY2QyYQ"
+            chat-title="Robi Sanal Asistan" 
+            agent-id="b44cc007-c83d-41e1-80a7-e6cfc44e7b68" 
+            language-code="en">
+        </df-messenger>
+    </div>
+    <a href="https://www.brisa.com.tr/" target="_blank">
+        <div class="left">
+        <img src="https://www.brisa.com.tr/assets/images/brisa-logo.svg" alt="Brisa Logo">
+        </div>
+    </a>    
+    <div class="center">
+        
+        <img src="robi.png" alt="Robi Resmi">
+        <div class="shine"></div>
+    </div>
+
+    
+</body>
+
+</html>
